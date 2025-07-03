@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-UA-compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>個人用ポートフォリオ</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link 
+    rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!--Hero section(1ページ)-->
+    <div class="hero">
+        <nav>
+            <h2 class="logo">未経験<span>プログラマー</span></h2>
+            <uL>
+                <li><a href="#">ホーム</a></li>
+                <li><a href="#">ポートフォリオ</a></li>
+            </uL>
+            <a href="#" class="btn">お問い合わせ</a>
+        </nav>
+        <!--真ん中の部分-->
+        <div class="content">
+            <div class="body">
+                <div class="portfolioInfo">
+                <h4>webエンジニア</h4>
+                <h1>port<span>folio</span></h1>
+                <h3>HTML/CSS/java/Python/サーブレット＆JSP</h3>
+                <div class="newslatter">
+                    <form>
+                        <input type="emali" placeholder="メールアドレスを入力">
+                        <input type="submit" value="お問い合わせ">
+                    </form>
+                </div>
+            </div>
+                <img src="img/runo.png" alt="" />
+            </div>          
+        </div>
+    </div>
+    <!-- about me section（2ページ）-->
+     <section class="about">
+        <div class="main">
+            <img src="img/runo.png" alt="">
+            <div class="about-text">
+                <h2>自己紹介</h2>
+                <h5>未経験から、一歩ずつエンジニアへ</h5>
+                <p>
+                    前職では接客・コールセンター・配送など、人と関わる仕事を中心に経験してきました。<br>
+                    その中で、相手に寄り添いながら、丁寧に対応する力を自然と身につけました。<br><br>
+
+                    現在は、職業訓練でプログラミングを学びながら、「自分でも何かを作れるんだ」という喜びを感じています。<br>
+                    HTML/CSSから始まり、JavaやPython、サーブレット＆JSPを使って、Webアプリや掲示板、お問い合わせフォームなどを少しずつ形にしています。<br><br>
+
+                    まだ駆け出しですが、「わかりやすく・動くものを丁寧に作る」ことを大切にしています。<br>
+                    このポートフォリオは、私の学びの軌跡であり、「やってみよう」と思った一歩目です。<br><br>
+
+                    同じように“最初の一歩”を応援してくれる会社と出会えたらうれしいです。
+                </p>
+            <button class="btn">お問い合わせ</button>
+            </div>  
+        </div>
+     </section>
+    <!--portfolio section　（3ぺージ）-->
+     <div class="portfolio">
+        <div class="title">
+            <h2>ポートフォリオ</h2>
+        </div>
+
+        <div class="box">
+            <div class="card">
+                <i class="fa-solid fa-book"></i>
+                <h5>職業訓練で学んだ事</h5>
+                <div class="pragraph">
+                    <p>
+                       教材：すっきりわかるシリーズ（Java/Python/SQL/サーブレット＆JSP<br>
+                       学習状況：基礎文法、webアプリ開発
+                    </p>
+                    <p style="text-align: center;">
+                        <a href="https://sukkiri.jp/" class="button">サイトへ</a>
+                    </p>
+                </div>
+
+
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-pen-to-square"></i>
+                <h5>レビュー掲示板アプリ</h5>
+                <div class="pragraph">
+                    <p>
+                        レビュー掲示板アプリ（reviewAPP）は、Java・JSP・Servletの基本構成に沿って設計し、<br>
+                        実務を想定したレビュー投稿機能を段階的に実装しました。<br>
+                        入力 → 確認 → 登録 → 完了 というユーザー導線に加え、一覧表示・削除機能も備えており、<br>
+                        フォームバリデーション・DB連携・エラー処理・画面遷移の流れを一通りカバーしています。<br>
+                        学習用サンプル（dokoTsubu）をベースにしつつも、目的に応じたファイル構成・拡張性のある設計へ再構成しており、<br>
+                        現場に即した保守性と実用性を意識した開発経験を示せる作品です。
+                    </p>
+                    <p style="text-align: center;">
+                        <a href="" class="button">もっと読む</a>
+                    </p>
+                </div>
+
+
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-gamepad"></i>
+                <h5>Pythonじゃんけん王 ～キャラと学ぶGUIアプリ～</h5>
+                <div class="pragraph">
+                    <p>
+                        『Pythonじゃんけん王』は、キャラクターと一緒に楽しめるGUIじゃんけんゲームです。<br>
+                        PythonとTkinterを使い、擬人化猫キャラ「シロノス」と「クロノス」が登場。<br>
+                        ボタンでグー・チョキ・パーを選び、勝敗に応じて感情豊かなセリフが表示されます。<br>
+                        キャラクターのセリフ管理はクラス化されており、拡張性の高い設計になっています。<br>
+                        初心者の学習用にも、ポートフォリオ作品としてもぴったりのアプリです。
+                    </p>
+                    <p style="text-align: center;">
+                        <a href="" class="button">もっと読む</a>
+                    </p>
+                </div>
+
+
+            </div>
+        </div>
+     </div>
+     <!-- contact section (4ページ)-->
+      <div class="contact">
+        <p>気になる方は私にお問い合わせください</p>
+        <a href="#" class="contact-button">お問い合わせ</a>
+      </div>
+      <!-- footer section(ラスト)-->
+       <footer>
+        <p>未経験プログラマー</p>
+        <p>programming-hashimoto</p>
+        <div class="social">
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+        <p class="end">copyright@hashimoto</p>
+       </footer>
+</body>
+</html>
