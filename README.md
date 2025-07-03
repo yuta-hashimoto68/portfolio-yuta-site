@@ -7,7 +7,6 @@
 ## 使用技術
 - HTML
 - CSS
-- FontAwesome
 
 ## 学習方針
 本作品は、YouTube動画を参考にしたコードの模写（写経）を通して  
