@@ -1,7 +1,8 @@
 # Portfolio
 
 個人で作成したWebポートフォリオです。  
-一部、YouTube動画 ([リンク](https://youtu.be/QCCjDlBiYV8?si=2uXbJ55QNs6xAGwj)) を参考に **模写（写経）** しながら学習目的で構築しました。  
+一部、YouTube動画 　([リンク](https://youtu.be/QCCjDlBiYV8?si=2uXbJ55QNs6xAGwj)) 
+を参考に **模写（写経）** しながら学習目的で構築しました。  
 テキストや説明文については hashimoto によるオリジナルです。
 なお、細かい部分の調整はこれからの課題になっています。
 
